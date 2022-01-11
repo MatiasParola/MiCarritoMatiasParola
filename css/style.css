@@ -1,0 +1,136 @@
+*{
+    box-sizing:border-box;
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    text-decoration: bold;
+    
+}
+.header{
+    background-color: white;
+    display: inline;
+}
+
+.header__logo{
+    display: inline;
+    width: 200px;
+}
+
+.header__logo img{
+    margin: 10px;
+    width: 100px;    
+}
+
+.header__menu{
+    display: inline;
+    
+}
+
+.header__menu ul{
+    display: inline;
+    width: auto;
+    list-style: none;
+    text-align: right;
+}
+.header__menu li{
+    display: inline;
+    margin-left: 200px;
+}
+
+.header__menu a{
+    text-align: right;
+    text-decoration: none;
+    color: black;
+}
+
+
+.logo{
+    width: 100px;
+    height: auto;
+}
+
+
+body{
+    background-color: white;
+    margin: auto;
+}
+
+.medio{
+    margin: auto;
+}
+
+.medio img{
+    display: block;
+    width: auto;
+    align-content: center;
+    margin: auto;
+}
+
+.medio table{
+    border: 2;
+    margin: auto;
+    
+}
+
+body {
+    width: 100%;
+    height: auto;
+    background-color:white;
+    
+}
+
+h2{
+    text-decoration: underline;
+    text-align: center;
+}
+
+.box{
+    margin: auto;
+}
+
+.box img{
+    width: 200px;
+    height: 200px;
+margin: auto 30px;
+}
+
+footer{
+    background-color: #f1f1f1;
+}
+
+footer h3{
+    margin: auto;
+    display: inline;
+}
+
+footer div{
+    margin: auto;
+    display: inline;
+    float: right;    
+
+}
+
+.form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .form input {
+    width: 90%;
+    height: 30px;
+    margin: 0.5rem;
+  }
+  
+  .form button {
+    padding: 0.5em 1em;
+    border: none;
+    background: rgb(100, 200, 255);
+    cursor: pointer;
+  }  
